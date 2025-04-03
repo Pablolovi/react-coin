@@ -1,0 +1,40 @@
+/* Coin.module.css */
+.coin-page{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coin-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.coin-rank, .coin-price {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.coin-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.coin-btn:hover {
+    background-color: #0056b3;
+}

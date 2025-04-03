@@ -1,0 +1,38 @@
+/* Home.module.css */
+.home-page {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.crypto-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.crypto-item {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.crypto-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.crypto-link:hover {
+    text-decoration: underline;
+}
